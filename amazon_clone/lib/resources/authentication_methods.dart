@@ -13,7 +13,7 @@ class AuthenticationMethods {
     if (name!= "" && address!="" && email!= "" && password!=""){
       output == "success";
     } else{
-      output= "Plese fill up everything";
+      output= "Please fill up everything";
     }
     return output;
   }
