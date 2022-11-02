@@ -1,10 +1,14 @@
 class AuthenticationMethods {
 
   Future<String> signUpUser(
-      {required String name, 
+      {
+        required String name,
       required String address, 
       required String email, 
-      required String password}) async {
+      required String password
+      }
+
+      ) async {
     name.trim();
     address.trim();
     email.trim();

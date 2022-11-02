@@ -63,7 +63,7 @@ class _SignInScreenState extends State<SignInScreen> {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text(
+                            const Text(
                               "Sign-In", 
                               style:
                                   TextStyle(fontWeight: FontWeight.w500, fontSize: 33),
@@ -83,13 +83,13 @@ class _SignInScreenState extends State<SignInScreen> {
                             Align(
                               alignment: Alignment.center,
                               child: CustomMainButton(
+                                color: yellowColor,
+                                isLoading: false, 
+                                onPressed: (){},
                                 child: const Text(
                                   "Sign In",
                                   style: TextStyle(letterSpacing: 0.6, color: Colors.black),
-                                ),
-                                color: yellowColor,
-                                isLoading: false, 
-                                onPressed: (){}),
+                                )),
                             )
                           ],
                         )
@@ -121,17 +121,17 @@ class _SignInScreenState extends State<SignInScreen> {
                     ],
                   ), 
                   CustomMainButton(
-                    child: const Text(
-                      "Create an Amazon account",
-                      style: TextStyle(letterSpacing: 0.6,color: Colors.black),
-                    ), 
                     color: Colors.grey[400]!,
                     isLoading: false, 
                     onPressed: (){
                       Navigator.push(context, MaterialPageRoute(builder: (context){
                         return const SignUpScreen();
                       }));
-                    })
+                    },
+                    child: const Text(
+                      "Create an Amazon account",
+                      style: TextStyle(letterSpacing: 0.6,color: Colors.black),
+                    ))
                 ],
               ),
             ),
