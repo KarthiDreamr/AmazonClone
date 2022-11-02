@@ -4,16 +4,34 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b605943-ce6b-4ea4-a81a-e85e8396620d" name="Changes" comment="" />
+    <list default="true" id="9b605943-ce6b-4ea4-a81a-e85e8396620d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/amazon_clone/android/app/google-services.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/amazon_clone/lib/firebase_options.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amazon_clone/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/amazon_clone/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amazon_clone/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/amazon_clone/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amazon_clone/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/amazon_clone/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amazon_clone/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/amazon_clone/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amazon_clone/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/amazon_clone/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amazon_clone/test/widget_test.dart" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2GlPdlNYBTEXnuJeQ3ydyGcecFn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -22,11 +40,23 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../tools" />
+    <property name="settings.editor.selected.configurable" value="dart.settings" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\karth_\StudioProjects\FlutterProjects\Amazon Clone\amazon_clone\android\app" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\karth_\StudioProjects\FlutterProjects\Amazon Clone\amazon_clone" />
+      <recent name="C:\Users\karth_\StudioProjects\FlutterProjects\Amazon Clone\amazon_clone\lib" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
@@ -44,5 +74,16 @@
       <updated>1666960293809</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

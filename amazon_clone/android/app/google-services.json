@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "623159867524",
+    "project_id": "clone-82cc2",
+    "storage_bucket": "clone-82cc2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:623159867524:android:2e6b05ec1974c43d33aad1",
+        "android_client_info": {
+          "package_name": "com.thrisnakarthi.iqube.amazon_clone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "623159867524-182dqbs45s311cu15b40rfve8n250c9g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0YgOb6ba-hv06pYMP0C8hlrQtfXC8wF4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "623159867524-182dqbs45s311cu15b40rfve8n250c9g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
