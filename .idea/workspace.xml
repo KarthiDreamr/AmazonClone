@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b605943-ce6b-4ea4-a81a-e85e8396620d" name="Changes" comment="my first commit" />
+    <list default="true" id="9b605943-ce6b-4ea4-a81a-e85e8396620d" name="Changes" comment="some simple bug fixes">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amazon_clone/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/amazon_clone/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amazon_clone/lib/resources/authentication_methods.dart" beforeDir="false" afterPath="$PROJECT_DIR$/amazon_clone/lib/resources/authentication_methods.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amazon_clone/lib/screens/sign_in_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/amazon_clone/lib/screens/sign_in_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amazon_clone/lib/screens/sign_up_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/amazon_clone/lib/screens/sign_up_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amazon_clone/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/amazon_clone/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amazon_clone/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/amazon_clone/pubspec.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,6 +50,8 @@
       <recent name="C:\Users\karth_\StudioProjects\FlutterProjects\Amazon Clone\amazon_clone\android\app" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\karth_\StudioProjects\FlutterProjects\Amazon Clone\amazon_clone\lib\screens" />
+      <recent name="C:\Users\karth_\StudioProjects\FlutterProjects\Amazon Clone\amazon_clone\lib\resources" />
       <recent name="C:\Users\karth_\StudioProjects\FlutterProjects\Amazon Clone\amazon_clone" />
       <recent name="C:\Users\karth_\StudioProjects\FlutterProjects\Amazon Clone\amazon_clone\lib" />
     </key>
@@ -66,7 +78,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667398968681</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added some packages">
+      <created>1667399601472</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667399601472</updated>
+    </task>
+    <task id="LOCAL-00003" summary="some simple bug fixes">
+      <created>1667399789478</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667399789478</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -82,6 +108,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="my first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="my first commit" />
+    <MESSAGE value="added some packages" />
+    <MESSAGE value="some simple bug fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="some simple bug fixes" />
   </component>
 </project>
