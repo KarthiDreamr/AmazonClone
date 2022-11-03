@@ -1,6 +1,5 @@
 import 'dart:developer';
 
-
 import 'package:amazon_clone/resources/authentication_methods.dart';
 import 'package:amazon_clone/utils/color_theme.dart';
 import 'package:amazon_clone/utils/constants.dart';
@@ -10,18 +9,19 @@ import 'package:amazon_clone/widget/text_field_widget.dart';
 import 'package:flutter/material.dart';
 
 class SignUpScreen extends StatefulWidget{
+
   const SignUpScreen({ Key? key}) :super(key: key);
   @override 
   State<SignUpScreen> createState() => _SignUpScreenState();
 
 }
+
 class _SignUpScreenState extends State<SignUpScreen> {
   TextEditingController nameController =TextEditingController();
   TextEditingController emailController =TextEditingController();
   TextEditingController addressController =TextEditingController();
   TextEditingController passwordController =TextEditingController();
   AuthenticationMethods authenticationMethods = AuthenticationMethods();
-
 
   @override
   void dispose(){
@@ -30,10 +30,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
     emailController.dispose();
     addressController.dispose();
     passwordController.dispose();
-
   }
-  
-  
 
   Widget build(BuildContext context) {
     Size screenSize= Utils().getScreenSize();
@@ -72,7 +69,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
-                                Text(
+                                const Text(
                                   "Sign-Up", 
                                   style:
                                       TextStyle(fontWeight: FontWeight.w500, fontSize: 33),
@@ -104,18 +101,17 @@ class _SignUpScreenState extends State<SignUpScreen> {
                                 Align(
                                   alignment: Alignment.center,
                                   child: CustomMainButton(
-                                    child: const Text(
-                                      "Sign Up",
-                                      style: TextStyle(letterSpacing: 0.6, color: Colors.black),
-                                    ),
                                     color: yellowColor,
                                     isLoading: false, 
                                     onPressed: () async {
+                                      authenticationMethods.signUpUser(password: passwordController.text,email: emailController.text,address: addressController.text,name: nameController.text);
+
                                       String output = await authenticationMethods.signUpUser(
                                           name: nameController.text, 
                                           address: addressController.text, 
                                           email: emailController.text, 
                                           password: passwordController.text);
+
                                       if (output=="success"){
                                         log("doing next step");
                                         
@@ -124,6 +120,10 @@ class _SignUpScreenState extends State<SignUpScreen> {
                                       }
 
                                     },
+                                    child: const Text(
+                                      "Sign Up",
+                                      style: TextStyle(letterSpacing: 0.6, color: Colors.black),
+                                    ),
                                   ),
                                 )
                               ],
@@ -132,16 +132,16 @@ class _SignUpScreenState extends State<SignUpScreen> {
                     ),
                   ),
                   CustomMainButton(
-                    child: Text(
-                      "Back",
-                      style: TextStyle(letterSpacing: 0.6,color: Colors.black),
-                    ), 
                     color: Colors.grey[400]!,
                     isLoading: false, 
                     onPressed: (){
                       Navigator.pop(context);
 
-                    })
+                    },
+                    child: const Text(
+                      "Back",
+                      style: TextStyle(letterSpacing: 0.6,color: Colors.black),
+                    ))
                 ],
               ),
             ),

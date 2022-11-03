@@ -1,8 +1,6 @@
 import 'dart:async';
 import 'dart:io';
-
-
-
+import 'package:amazon_clone/resources/authentication_methods.dart';
 import 'package:amazon_clone/screens/sign_up_screen.dart';
 import 'package:amazon_clone/utils/color_theme.dart';
 import 'package:amazon_clone/utils/constants.dart';
@@ -21,6 +19,7 @@ class SignInScreen extends StatefulWidget{
 class _SignInScreenState extends State<SignInScreen> {
   TextEditingController emailController = TextEditingController();
   TextEditingController passwordController= TextEditingController();
+  AuthenticationMethods authenticationMethods = AuthenticationMethods();
   
   @override
   void dispose(){
@@ -63,7 +62,7 @@ class _SignInScreenState extends State<SignInScreen> {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text(
+                            const Text(
                               "Sign-In", 
                               style:
                                   TextStyle(fontWeight: FontWeight.w500, fontSize: 33),
@@ -83,13 +82,13 @@ class _SignInScreenState extends State<SignInScreen> {
                             Align(
                               alignment: Alignment.center,
                               child: CustomMainButton(
+                                color: yellowColor,
+                                isLoading: false, 
+                                onPressed: (){},
                                 child: const Text(
                                   "Sign In",
                                   style: TextStyle(letterSpacing: 0.6, color: Colors.black),
-                                ),
-                                color: yellowColor,
-                                isLoading: false, 
-                                onPressed: (){}),
+                                )),
                             )
                           ],
                         )
@@ -121,17 +120,26 @@ class _SignInScreenState extends State<SignInScreen> {
                     ],
                   ), 
                   CustomMainButton(
+                    color: Colors.grey[400]!,
+                    isLoading: false, 
+                    onPressed: () async {
+                      authenticationMethods.signInUser(email: emailController.text, password: passwordController.text);
+
+                      String output = await authenticationMethods.signInUser(
+                          email: emailController.text,
+                          password: passwordController.text);
+
+                      if (output=="success"){
+
+                      } else {
+
+                      }
+
+                    },
                     child: const Text(
                       "Create an Amazon account",
                       style: TextStyle(letterSpacing: 0.6,color: Colors.black),
-                    ), 
-                    color: Colors.grey[400]!,
-                    isLoading: false, 
-                    onPressed: (){
-                      Navigator.push(context, MaterialPageRoute(builder: (context){
-                        return const SignUpScreen();
-                      }));
-                    })
+                    ))
                 ],
               ),
             ),
