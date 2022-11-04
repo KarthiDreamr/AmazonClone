@@ -6,9 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="9b605943-ce6b-4ea4-a81a-e85e8396620d" name="Changes" comment="some simple bug fixes in screens">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amazon_clone/lib/firebase_options.dart" beforeDir="false" afterPath="$PROJECT_DIR$/amazon_clone/lib/firebase_options.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/amazon_clone/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/amazon_clone/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amazon_clone/lib/resources/authentication_methods.dart" beforeDir="false" afterPath="$PROJECT_DIR$/amazon_clone/lib/resources/authentication_methods.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/amazon_clone/lib/screens/sign_in_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/amazon_clone/lib/screens/sign_in_screen.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/amazon_clone/lib/screens/sign_up_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/amazon_clone/lib/screens/sign_up_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amazon_clone/lib/utils/utils.dart" beforeDir="false" afterPath="$PROJECT_DIR$/amazon_clone/lib/utils/utils.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +47,7 @@
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="dart.settings" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -101,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667403749404</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="some simple bug fixes in screens">
+      <created>1667485157510</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667485157510</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

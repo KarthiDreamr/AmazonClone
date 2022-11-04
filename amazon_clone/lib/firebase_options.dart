@@ -56,6 +56,7 @@ class DefaultFirebaseOptions {
     projectId: 'clone-82cc2',
     authDomain: 'clone-82cc2.firebaseapp.com',
     storageBucket: 'clone-82cc2.appspot.com',
+    measurementId: 'G-11GFKHMD0X',
   );
 
   static const FirebaseOptions android = FirebaseOptions(

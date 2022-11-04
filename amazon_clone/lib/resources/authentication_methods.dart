@@ -3,7 +3,6 @@ import 'package:firebase_auth/firebase_auth.dart';
 class AuthenticationMethods {
   FirebaseAuth firebaseAuth = FirebaseAuth.instance;
 
-
   Future<String> signUpUser(
       {required String name,
       required String address,
@@ -14,11 +13,11 @@ class AuthenticationMethods {
     email.trim();
     password.trim();
     String output = "Something went wrong";
+    print("The value of name is $name  - $address - $password - $email");
     if (name != "" && address != "" && email != "" && password != "") {
       try {
         await firebaseAuth.createUserWithEmailAndPassword(
             email: email, password: password);
-
         output = "success";
       } on FirebaseAuthException catch (e) {
         output = e.message.toString();
@@ -34,6 +33,7 @@ class AuthenticationMethods {
     email.trim();
     password.trim();
     String output = "Something went wrong";
+    print("The value of password is  $password email - $email");
     if (email != "" && password != "") {
       try {
         await firebaseAuth.signInWithEmailAndPassword(
