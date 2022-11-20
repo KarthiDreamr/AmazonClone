@@ -107,8 +107,8 @@ class _SignUpScreenState extends State<SignUpScreen> {
                                 color: yellowColor,
                                 isLoading: isLoading,
                                 onPressed: () async {
+
                                   setState(() {
-                                    FirebaseAuth.instance.currentUser?.updateDisplayName(nameController.text);
                                     isLoading = true;
                                   });
 
@@ -117,7 +117,14 @@ class _SignUpScreenState extends State<SignUpScreen> {
                                       address: addressController.text,
                                       email: emailController.text,
                                       password: passwordController.text);
-                                  auth.then((output) => { if (output == "success") {
+
+                                  auth.then((output) => {
+
+                                    if (output == "success") {
+
+                                      setState((){
+                                        FirebaseAuth.instance.currentUser?.updateDisplayName(nameController.text);
+                                      }),
 
                                     Navigator.pushReplacement(
                                         context,
