@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b605943-ce6b-4ea4-a81a-e85e8396620d" name="Changes" comment="some simple bug fixes in screens">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
+    <list default="true" id="9b605943-ce6b-4ea4-a81a-e85e8396620d" name="Changes" comment="Persistent login added">
+      <change afterPath="$PROJECT_DIR$/amazon_clone/lib/home.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/amazon_clone/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/amazon_clone/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amazon_clone/lib/screens/sign_in_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/amazon_clone/lib/screens/sign_in_screen.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/amazon_clone/lib/screens/sign_up_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/amazon_clone/lib/screens/sign_up_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amazon_clone/lib/widget/text_field_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/amazon_clone/lib/widget/text_field_widget.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amazon_clone/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/amazon_clone/pubspec.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667563137034</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Persistent login added">
+      <created>1668942708072</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1668942708072</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -138,6 +142,7 @@
     <MESSAGE value="added some packages" />
     <MESSAGE value="some simple bug fixes" />
     <MESSAGE value="some simple bug fixes in screens" />
-    <option name="LAST_COMMIT_MESSAGE" value="some simple bug fixes in screens" />
+    <MESSAGE value="Persistent login added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Persistent login added" />
   </component>
 </project>

@@ -1,3 +1,4 @@
+import 'package:amazon_clone/home.dart';
 import 'package:amazon_clone/resources/authentication_methods.dart';
 import 'package:amazon_clone/screens/sign_up_screen.dart';
 import 'package:amazon_clone/utils/color_theme.dart';
@@ -5,7 +6,6 @@ import 'package:amazon_clone/utils/constants.dart';
 import 'package:amazon_clone/utils/utils.dart';
 import 'package:amazon_clone/widget/custom_main_button.dart';
 import 'package:amazon_clone/widget/text_field_widget.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
 class SignInScreen extends StatefulWidget {
@@ -83,11 +83,6 @@ class _SignInScreenState extends State<SignInScreen> {
                         Align(
                           alignment: Alignment.center,
                           child: CustomMainButton(
-                              child: const Text(
-                                "Sign In",
-                                style: TextStyle(
-                                    letterSpacing: 0.6, color: Colors.black),
-                              ),
                               color: yellowColor,
                               isLoading: isLoading,
                               onPressed: () async {
@@ -95,21 +90,36 @@ class _SignInScreenState extends State<SignInScreen> {
                                   isLoading = true;
                                 });
 
-                                String output =
-                                await authenticationMethods.signInUser(
+                                Future auth =
+                              authenticationMethods.signInUser(
                                     email: emailController.text,
                                     password: passwordController.text);
-                                setState(() {
-                                  isLoading = false;
-                                });
-                                if (output == "success") {
+                                auth.then((output) => { if (output == "success") {
+
+                                  Navigator.pushReplacement(
+                                      context,
+                                      MaterialPageRoute(
+                                        builder: (_) => Home(),
+                                      ))
                                   //functions
                                 } else {
                                   //error
                                   Utils().showSnackBar(
-                                      context: context, content: output);
-                                }
-                              }),
+                                      context: context, content: output)
+                                }}
+                                );
+
+                                setState(() {
+                                  isLoading = false;
+                                });
+
+
+                              },
+                              child: const Text(
+                                "Sign In",
+                                style: TextStyle(
+                                    letterSpacing: 0.6, color: Colors.black),
+                              )),
                         )
                       ],
                     ),
@@ -138,13 +148,6 @@ class _SignInScreenState extends State<SignInScreen> {
                     ],
                   ),
                   CustomMainButton(
-                      child: const Text(
-                        "Create an Amazon Account",
-                        style: TextStyle(
-                          letterSpacing: 0.6,
-                          color: Colors.black,
-                        ),
-                      ),
                       color: Colors.grey[400]!,
                       isLoading: false,
                       onPressed: () {
@@ -152,7 +155,14 @@ class _SignInScreenState extends State<SignInScreen> {
                             MaterialPageRoute(builder: (context) {
                               return const SignUpScreen();
                             }));
-                      })
+                      },
+                      child: const Text(
+                        "Create an Amazon Account",
+                        style:TextStyle(
+                          letterSpacing: 0.6,
+                          color: Colors.black,
+                        ),
+                      ))
                 ],
               ),
             ),
