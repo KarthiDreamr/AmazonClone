@@ -111,20 +111,20 @@ class _SignUpScreenState extends State<SignUpScreen> {
                                 color: yellowColor,
                                 isLoading: isLoading,
                                 onPressed: () async {
-                                  // setState(() {
-                                  //   String name=nameController.text;
-                                  // });
+
                                   print("text editing controller value ${nameController.text}");
 
                                   setState(() {
                                     isLoading = true;
                                   });
+
                                   String output =
                                   await authenticationMethods.signUpUser(
                                       name: nameController.text,
                                       address: addressController.text,
                                       email: emailController.text,
                                       password: passwordController.text);
+
                                   setState(() {
                                     isLoading = false;
                                   });
@@ -132,8 +132,16 @@ class _SignUpScreenState extends State<SignUpScreen> {
                                     Navigator.pushReplacement(
                                         context,
                                         MaterialPageRoute(
-                                            builder: (_) =>
-                                            const SignInScreen()));
+                                            builder: (_) =>Scaffold(
+                                              appBar: AppBar(
+                                                title: Text("Amazon"),
+                                              ),
+                                              body: Text("Signed In"),
+                                            )
+                                            ));
+                                    Utils().showSnackBar(
+                                        context: context, content: output);
+
                                   } else {
                                     //error
                                     Utils().showSnackBar(

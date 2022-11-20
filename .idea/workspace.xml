@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b605943-ce6b-4ea4-a81a-e85e8396620d" name="Changes" comment="some simple bug fixes in screens">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amazon_clone/lib/firebase_options.dart" beforeDir="false" afterPath="$PROJECT_DIR$/amazon_clone/lib/firebase_options.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/amazon_clone/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/amazon_clone/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amazon_clone/lib/resources/authentication_methods.dart" beforeDir="false" afterPath="$PROJECT_DIR$/amazon_clone/lib/resources/authentication_methods.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amazon_clone/lib/screens/sign_in_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/amazon_clone/lib/screens/sign_in_screen.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/amazon_clone/lib/screens/sign_up_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/amazon_clone/lib/screens/sign_up_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amazon_clone/lib/utils/utils.dart" beforeDir="false" afterPath="$PROJECT_DIR$/amazon_clone/lib/utils/utils.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amazon_clone/lib/widget/text_field_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/amazon_clone/lib/widget/text_field_widget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amazon_clone/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/amazon_clone/pubspec.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,11 +23,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/amazon_clone/lib/resources/authentication_methods.dart" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/amazon_clone/lib/main.dart" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/amazon_clone/pubspec.yaml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/amazon_clone/lib/utils/utils.dart" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/amazon_clone/lib/screens/sign_in_screen.dart" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/amazon_clone/pubspec.yaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/amazon_clone/lib/resources/authentication_methods.dart" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -47,7 +48,7 @@
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Issue.Navigation" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -111,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667485157510</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="some simple bug fixes in screens">
+      <created>1667563137033</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1667563137034</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

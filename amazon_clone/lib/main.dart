@@ -44,7 +44,14 @@ class AmazonClone extends StatelessWidget{
             );
         } else if (user.hasData){
 
-          return const Text("signed in");
+          // FirebaseAuth.instance.signOut();
+
+          return Scaffold(
+            appBar: AppBar(
+              title: Text("Amazon"),
+            ),
+            body: Text("Signed In"),
+          );
 
     } else {
             return const SignInScreen();
